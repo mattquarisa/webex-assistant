@@ -106,7 +106,7 @@ def func2():
                         url = "https://webexapis.com/v1/messages"
                         payload = json.dumps({
                         "toPersonEmail": "" + str(personEmail) + "",
-                        "markdown": "** Webex OutOfOffice Auto Reply **\n\n Hi, \n I am currently out of office for the weekend and testing an OOO bot. \n Matt"
+                        "markdown": "** Webex OutOfOffice Auto Reply **\n\n Hi, \n I am currently out of office."
                         })
                         headers = {
                         'Authorization': 'Bearer ' + webex_personal_token,
